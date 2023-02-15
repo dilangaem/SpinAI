@@ -19,3 +19,12 @@ To train the model for the ternary materials with cubic crystal system, run the 
 ```bash
 python train.py --file_name train_data.csv --test_size 0.1
 ```
+
+## Predicting New Metals or Non-metals 
+Mention all the chemical formulas in a .csv data file with the above format. In order to keep the file strucutre, you can state 1 or 0 in the Target column. For clarity, a sample file named predict_data.csv is in DATA folder. We also provided a trained model in the TRAINED forlder for ternary cubic materials. <br /> <br />
+
+As an example, to predict metals/non-metals, run the following command. <br /> 
+```bash
+python predict.py --file_name predict_data.csv --model_name model-2023_02_15_00_28_17.sav
+```
+
