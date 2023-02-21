@@ -25,6 +25,6 @@ Mention all the chemical formulas in a .csv data file with the above format. In 
 
 As an example, to predict metals/non-metals, run the following command. <br /> 
 ```bash
-python predict.py --file_name predict_data.csv --model_name model-2023_02_15_00_28_17.sav
+python predict.py --file_name predict_data.csv --model_name model-2023_02_21_04_30_16.h5
 ```
 
